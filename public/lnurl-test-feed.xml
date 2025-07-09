@@ -43,8 +43,8 @@
       <pubDate>Wed, 09 Jul 2025 01:05:36 GMT</pubDate>
       <guid isPermaLink="false">f9ece9cc-1b13-4d30-99a1-69cfc8fc6ff8</guid>
       <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
-      <itunes:image href="https://github.com/ChadFarrow/lnurl-test-feed/blob/main/episode-image.jpg" />
-      <enclosure url="https://github.com/ChadFarrow/lnurl-test-feed/blob/main/LNURL%20Playground_%20Value-for-Value%20Podcasting%20Testbed.mp3" length="5890440" type="audio/mpeg"/>
+      <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/episode-image.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/LNURL%20Playground_%20Value-for-Value%20Podcasting%20Testbed.mp3" length="5890440" type="audio/mpeg"/>
       <itunes:duration>00:09:28</itunes:duration>
       <podcast:episode>1</podcast:episode>
       <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
