@@ -88,4 +88,4 @@ To contribute to this feed:
 
 ## License
 
-This feed is open source and available for testing and development purposes. 
+This feed is open source and available for testing and development purposes.
