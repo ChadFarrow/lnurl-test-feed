@@ -6,8 +6,8 @@
     <link>https://github.com/ChadFarrow/lnurl-test-feed</link>
     <language>en</language>
     <generator>Handcrafted by ChadF from Demu Open Source Template v0.1.1</generator>
-    <pubDate>Wed, 09 Jul 2025 01:05:36 GMT</pubDate>
-    <lastBuildDate>Wed, 09 Jul 2025 01:05:36 GMT</lastBuildDate>
+    <pubDate>Wed, 09 Jul 2025 23:12:33 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 23:12:33 GMT</lastBuildDate>
     <podcast:locked owner="chad.farrow@gmail.com">no</podcast:locked>
     <podcast:guid>9fe51a32-e08d-5ab7-9540-22a25c6bc2bf</podcast:guid>
     <itunes:category text="Technology" />
@@ -40,7 +40,7 @@
     <item>
       <title>LNURL Testing Episode</title>
       <description>Test episode for LNURL payment integration across different Lightning wallets and services. This episode demonstrates value-for-value monetization using Lightning payments with multiple LNURL addresses.</description>
-      <pubDate>Wed, 09 Jul 2025 01:05:36 GMT</pubDate>
+      <pubDate>Wed, 09 Jul 2025 23:12:33 GMT</pubDate>
       <guid isPermaLink="false">f9ece9cc-1b13-4d30-99a1-69cfc8fc6ff8</guid>
       <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
       <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/episode-image.jpg" />
