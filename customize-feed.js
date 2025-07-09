@@ -58,7 +58,7 @@ function generateFeed() {
   // Add Lightning addresses with even splits
   config.lightningAddresses.forEach((address, index) => {
     const name = `Wallet ${index + 1}`;
-    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="lightning" address="${address}" split="${evenSplit}" />`);
+    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="lnaddress" address="${address}" split="${evenSplit}" />`);
   });
   
   // Add node pubkeys with even splits
