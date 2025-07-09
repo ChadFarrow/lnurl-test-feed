@@ -27,10 +27,10 @@
     
     <!-- Value Block for Lightning Payments -->
     <podcast:value type="lightning" method="split" suggested="1000">
-      <podcast:valueRecipient name="Wallet 1" type="lightning" address="chadf@getalby.com" split="20" />
-      <podcast:valueRecipient name="Wallet 2" type="lightning" address="chadf@btcpay.podtards.com" split="20" />
-      <podcast:valueRecipient name="Wallet 3" type="lightning" address="eagerheron90@zeusnuts.com" split="20" />
-      <podcast:valueRecipient name="Wallet 4" type="lightning" address="cobaltfly1@primal.net" split="20" />
+      <podcast:valueRecipient name="Wallet 1" type="lnaddress" address="chadf@getalby.com" split="20" />
+      <podcast:valueRecipient name="Wallet 2" type="lnaddress" address="chadf@btcpay.podtards.com" split="20" />
+      <podcast:valueRecipient name="Wallet 3" type="lnaddress" address="eagerheron90@zeusnuts.com" split="20" />
+      <podcast:valueRecipient name="Wallet 4" type="lnaddress" address="cobaltfly1@primal.net" split="20" />
       <podcast:valueRecipient name="Node 1" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="20" />
     </podcast:value>
     
@@ -49,10 +49,10 @@
       
       <!-- Episode-specific value block -->
       <podcast:value type="lightning" method="split" suggested="1000">
-      <podcast:valueRecipient name="Wallet 1" type="lightning" address="chadf@getalby.com" split="20" />
-      <podcast:valueRecipient name="Wallet 2" type="lightning" address="chadf@btcpay.podtards.com" split="20" />
-      <podcast:valueRecipient name="Wallet 3" type="lightning" address="eagerheron90@zeusnuts.com" split="20" />
-      <podcast:valueRecipient name="Wallet 4" type="lightning" address="cobaltfly1@primal.net" split="20" />
+      <podcast:valueRecipient name="Wallet 1" type="lnaddress" address="chadf@getalby.com" split="20" />
+      <podcast:valueRecipient name="Wallet 2" type="lnaddress" address="chadf@btcpay.podtards.com" split="20" />
+      <podcast:valueRecipient name="Wallet 3" type="lnaddress" address="eagerheron90@zeusnuts.com" split="20" />
+      <podcast:valueRecipient name="Wallet 4" type="lnaddress" address="cobaltfly1@primal.net" split="20" />
       <podcast:valueRecipient name="Node 1" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="20" />
       </podcast:value>
     </item>
