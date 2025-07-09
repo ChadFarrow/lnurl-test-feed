@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
+  <channel>
+    <title>Test Podcast</title>
+    <description>A test podcast with value blocks</description>
+    <podcast:value type="lightning" method="split" suggested="1000">
+      <podcast:valueRecipient name="Host" type="node" address="03abc123def456789..." split="70" />
+      <podcast:valueRecipient name="Producer" type="node" address="02def456abc789123..." split="20" />
+      <podcast:valueRecipient name="Editor" type="node" address="01ghi789def123456..." split="10" />
+    </podcast:value>
+    <item>
+      <title>Test Episode</title>
+      <description>This is a test episode</description>
+    </item>
+  </channel>
+</rss> 

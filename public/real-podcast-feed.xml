@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Lightning Network Podcast</title>
+    <itunes:author>Bitcoin Lightning Team</itunes:author>
+    <description>Exploring the Lightning Network, Bitcoin payments, and the future of podcast monetization through value-for-value. This podcast demonstrates how creators can earn Bitcoin directly from their audience using Lightning payments embedded in RSS feeds. Each episode covers topics like Lightning addresses, keysend payments, and the broader Bitcoin ecosystem.</description>
+    <link>https://lightningpodcast.com</link>
+    <language>en</language>
+    <generator>Lightning Network Podcast Feed v1.0</generator>
+    <pubDate>Mon, 05 Feb 2024 12:00:00 -0500</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 12:00:00 -0500</lastBuildDate>
+    <podcast:locked owner="host@lightningpodcast.com">no</podcast:locked>
+    <podcast:guid>lightning-podcast-2024-02-05</podcast:guid>
+    <itunes:category text="Technology" />
+    <itunes:category text="Business" />
+    <podcast:location>The Lightning Network</podcast:location>
+    <managingEditor>host@lightningpodcast.com</managingEditor>
+    <webMaster>host@lightningpodcast.com</webMaster>
+    <image>
+      <url>https://lightningpodcast.com/artwork.jpg</url>
+      <title>Lightning Network Podcast</title>
+      <link>https://lightningpodcast.com</link>
+      <description>Lightning Network Podcast artwork featuring Bitcoin and Lightning symbols</description>
+    </image>
+    <podcast:medium>podcast</podcast:medium>
+    <podcast:person href="https://twitter.com/lightninghost" img="https://lightningpodcast.com/host.jpg" group="hosting" role="host">Lightning Host</podcast:person>
+    <podcast:person href="https://twitter.com/lightningproducer" img="https://lightningpodcast.com/producer.jpg" group="production" role="producer">Lightning Producer</podcast:person>
+    
+    <!-- Value Block for Lightning Payments -->
+    <podcast:value type="lightning" method="split" suggested="1000">
+      <podcast:valueRecipient name="Host" type="lightning" address="host@getalby.com" split="70" />
+      <podcast:valueRecipient name="Producer" type="lightning" address="producer@walletofsatoshi.com" split="20" />
+      <podcast:valueRecipient name="Editor" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="10" />
+    </podcast:value>
+    
+    <item>
+      <title>Episode 1: Introduction to Lightning Network</title>
+      <description>In this inaugural episode, we explore the basics of the Lightning Network - Bitcoin's layer 2 scaling solution that enables instant, low-fee payments. We discuss how Lightning works, why it's important for Bitcoin adoption, and how it's revolutionizing the way we think about digital payments. Plus, we'll show you how podcasters can monetize their content using Lightning payments embedded directly in RSS feeds.</description>
+      <pubDate>Mon, 05 Feb 2024 12:00:00 -0500</pubDate>
+      <guid isPermaLink="false">lightning-episode-001-2024-02-05</guid>
+      <podcast:transcript url="https://lightningpodcast.com/transcripts/episode-001.srt" type="application/srt" />
+      <itunes:image href="https://lightningpodcast.com/episode-001.jpg" />
+      <enclosure url="https://lightningpodcast.com/episodes/episode-001.mp3" length="15000000" type="audio/mpeg"/>
+      <itunes:duration>00:25:30</itunes:duration>
+      <podcast:episode>1</podcast:episode>
+      <podcast:person href="https://twitter.com/lightninghost" img="https://lightningpodcast.com/host.jpg" group="hosting" role="host">Lightning Host</podcast:person>
+      <podcast:person href="https://twitter.com/lightningproducer" img="https://lightningpodcast.com/producer.jpg" group="production" role="producer">Lightning Producer</podcast:person>
+      
+      <!-- Episode-specific value block -->
+      <podcast:value type="lightning" method="split" suggested="500">
+        <podcast:valueRecipient name="Host" type="lightning" address="host@getalby.com" split="70" />
+        <podcast:valueRecipient name="Producer" type="lightning" address="producer@walletofsatoshi.com" split="20" />
+        <podcast:valueRecipient name="Editor" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="10" />
+      </podcast:value>
+    </item>
+    
+    <item>
+      <title>Episode 2: Lightning Addresses and Value-for-Value Podcasting</title>
+      <description>This episode dives deep into Lightning addresses - the email-like identifiers that make Bitcoin payments as easy as sending an email. We explore how podcasters are using Lightning addresses and value blocks in their RSS feeds to create sustainable revenue streams. Learn how to set up your own Lightning address and start accepting Bitcoin payments for your content.</description>
+      <pubDate>Mon, 12 Feb 2024 12:00:00 -0500</pubDate>
+      <guid isPermaLink="false">lightning-episode-002-2024-02-12</guid>
+      <podcast:transcript url="https://lightningpodcast.com/transcripts/episode-002.srt" type="application/srt" />
+      <itunes:image href="https://lightningpodcast.com/episode-002.jpg" />
+      <enclosure url="https://lightningpodcast.com/episodes/episode-002.mp3" length="18000000" type="audio/mpeg"/>
+      <itunes:duration>00:30:15</itunes:duration>
+      <podcast:episode>2</podcast:episode>
+      <podcast:person href="https://twitter.com/lightninghost" img="https://lightningpodcast.com/host.jpg" group="hosting" role="host">Lightning Host</podcast:person>
+      <podcast:person href="https://twitter.com/lightningproducer" img="https://lightningpodcast.com/producer.jpg" group="production" role="producer">Lightning Producer</podcast:person>
+      
+      <!-- Episode-specific value block -->
+      <podcast:value type="lightning" method="split" suggested="750">
+        <podcast:valueRecipient name="Host" type="lightning" address="host@getalby.com" split="70" />
+        <podcast:valueRecipient name="Producer" type="lightning" address="producer@walletofsatoshi.com" split="20" />
+        <podcast:valueRecipient name="Editor" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="10" />
+      </podcast:value>
+    </item>
+    
+    <item>
+      <title>Episode 3: Keysend Payments and Node Routing</title>
+      <description>In this technical deep-dive, we explore keysend payments - a Lightning Network feature that allows payments to be sent directly to Lightning nodes without requiring an invoice. We discuss how keysend works, its advantages for podcast monetization, and the challenges of Lightning routing. Plus, we'll show you how to set up your own Lightning node for receiving keysend payments.</description>
+      <pubDate>Mon, 19 Feb 2024 12:00:00 -0500</pubDate>
+      <guid isPermaLink="false">lightning-episode-003-2024-02-19</guid>
+      <podcast:transcript url="https://lightningpodcast.com/transcripts/episode-003.srt" type="application/srt" />
+      <itunes:image href="https://lightningpodcast.com/episode-003.jpg" />
+      <enclosure url="https://lightningpodcast.com/episodes/episode-003.mp3" length="20000000" type="audio/mpeg"/>
+      <itunes:duration>00:33:45</itunes:duration>
+      <podcast:episode>3</podcast:episode>
+      <podcast:person href="https://twitter.com/lightninghost" img="https://lightningpodcast.com/host.jpg" group="hosting" role="host">Lightning Host</podcast:person>
+      <podcast:person href="https://twitter.com/lightningproducer" img="https://lightningpodcast.com/producer.jpg" group="production" role="producer">Lightning Producer</podcast:person>
+      
+      <!-- Episode-specific value block -->
+      <podcast:value type="lightning" method="split" suggested="1000">
+        <podcast:valueRecipient name="Host" type="lightning" address="host@getalby.com" split="70" />
+        <podcast:valueRecipient name="Producer" type="lightning" address="producer@walletofsatoshi.com" split="20" />
+        <podcast:valueRecipient name="Editor" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="10" />
+      </podcast:value>
+    </item>
+  </channel>
+</rss> 

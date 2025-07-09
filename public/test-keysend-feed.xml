@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
+  <channel>
+    <title>Test Keysend Podcast</title>
+    <description>A test podcast for testing keysend payments with different NWC wallets</description>
+    <link>https://example.com</link>
+    
+    <podcast:value type="lightning" method="keysend">
+      <podcast:valueRecipient 
+        name="Test Node 1" 
+        address="02eec7245d6b7d2ccb30380bfbe2a3648cd7a942653f5aa340edcea1f283686619" 
+        split="50" 
+        type="node" />
+      <podcast:valueRecipient 
+        name="Test Node 2" 
+        address="03a9d1e8f25b9aac3360eaea6a8b7a163c6f1f563c0a90947c460172ddd1f5b4f" 
+        split="50" 
+        type="node" />
+    </podcast:value>
+    
+    <item>
+      <title>Test Episode for Keysend</title>
+      <description>This episode is designed to test keysend payments with different NWC wallets.</description>
+      <link>https://example.com/episode1</link>
+      <guid>test-episode-1</guid>
+    </item>
+  </channel>
+</rss> 

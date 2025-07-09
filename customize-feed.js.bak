@@ -14,9 +14,8 @@ const config = {
   // Lightning addresses to test
   lightningAddresses: [
     'chadf@getalby.com',
-    'chadf@btcpay.podtards.com',
-    'eagerheron90@zeusnuts.com',
-    'cobaltfly1@primal.net'
+    'yourname@walletofsatoshi.com',
+    'yourname@ln.pizza'
   ],
   
   // Node pubkeys for keysend testing (optional)
@@ -32,9 +31,21 @@ const config = {
   // Episode configuration
   episodes: [
     {
-      title: 'LNURL Testing Episode',
-      description: 'A test episode for LNURL payment integration across different Lightning wallets and services. This episode demonstrates value-for-value monetization using Lightning payments with multiple LNURL addresses.',
+      title: 'Episode 1: Introduction to LNURL',
+      description: 'Welcome to the LNURL Testing Podcast! In this episode, we introduce LNURL (Lightning Network URL) and explain how it enables seamless Lightning payments.',
       guid: 'lnurl-test-001-2024-02-05',
+      suggestedAmount: 500
+    },
+    {
+      title: 'Episode 2: LNURL-pay Implementation',
+      description: 'In this technical episode, we dive deep into LNURL-pay implementation. We explore how LNURL-pay works, the callback mechanism, and how to integrate it into applications.',
+      guid: 'lnurl-test-002-2024-02-12',
+      suggestedAmount: 750
+    },
+    {
+      title: 'Episode 3: Testing Different Wallets',
+      description: 'This episode focuses on testing LNURL compatibility across different Lightning wallets. We\'ll test popular wallets like Alby, Phoenix, Blixt, and others.',
+      guid: 'lnurl-test-003-2024-02-19',
       suggestedAmount: 1000
     }
   ]
@@ -46,28 +57,21 @@ function generateFeed() {
   const githubBaseUrl = `https://raw.githubusercontent.com/${config.username}/${config.repoName}/main`;
   const githubRepoUrl = `https://github.com/${config.username}/${config.repoName}`;
   
-  // Use a static UUIDv5 for podcast:guid (replace with a real UUIDv5 if needed)
-  const podcastGuid = 'b7e6a1e2-7e2b-5c2e-8e2b-7e2b5c2e8e2b';
-  
-  // Generate value recipients with even splits
+  // Generate value recipients
   const valueRecipients = [];
   
-  // Calculate even splits for Lightning addresses
-  const totalLightningAddresses = config.lightningAddresses.length;
-  const totalNodePubkeys = config.nodePubkeys.length;
-  const totalRecipients = totalLightningAddresses + totalNodePubkeys;
-  const evenSplit = Math.floor(100 / totalRecipients);
-  
-  // Add Lightning addresses with even splits and type="lnaddress"
+  // Add Lightning addresses
   config.lightningAddresses.forEach((address, index) => {
-    const name = config.lightningNames && config.lightningNames[index] ? config.lightningNames[index] : `Wallet ${index + 1}`;
-    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="lnaddress" address="${address}" split="${evenSplit}" />`);
+    const name = index === 0 ? 'Host' : `Recipient ${index + 1}`;
+    const split = index === 0 ? 70 : Math.floor(30 / (config.lightningAddresses.length - 1));
+    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="lightning" address="${address}" split="${split}" />`);
   });
   
-  // Add node pubkeys with even splits
+  // Add node pubkeys if provided
   config.nodePubkeys.forEach((pubkey, index) => {
     const name = `Node ${index + 1}`;
-    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="node" address="${pubkey}" split="${evenSplit}" />`);
+    const split = 10;
+    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="node" address="${pubkey}" split="${split}" />`);
   });
   
   // Generate episodes
@@ -81,15 +85,15 @@ function generateFeed() {
       <description>${episode.description}</description>
       <pubDate>${episodeDate}</pubDate>
       <guid isPermaLink="false">${episode.guid}</guid>
-      <podcast:transcript url="${githubBaseUrl}/transcripts/episode-${episodeNumber.toString().padStart(3, '0')}.srt" type="text/plain" />
+      <podcast:transcript url="${githubBaseUrl}/transcripts/episode-${episodeNumber.toString().padStart(3, '0')}.srt" type="application/srt" />
       <itunes:image href="${githubBaseUrl}/images/episode-${episodeNumber.toString().padStart(3, '0')}.jpg" />
       <enclosure url="${githubBaseUrl}/episodes/episode-${episodeNumber.toString().padStart(3, '0')}.mp3" length="15000000" type="audio/mpeg"/>
       <itunes:duration>00:25:00</itunes:duration>
       <podcast:episode>${episodeNumber}</podcast:episode>
-      <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
+      <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosting" role="host">${config.name}</podcast:person>
       
       <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="lnaddress" suggested="${episode.suggestedAmount}">
+      <podcast:value type="lightning" method="split" suggested="${episode.suggestedAmount}">
 ${valueRecipients.join('\n')}
       </podcast:value>
     </item>`;
@@ -107,7 +111,7 @@ ${valueRecipients.join('\n')}
     <pubDate>${currentDate}</pubDate>
     <lastBuildDate>${currentDate}</lastBuildDate>
     <podcast:locked owner="${config.email}">no</podcast:locked>
-    <podcast:guid>${podcastGuid}</podcast:guid>
+    <podcast:guid>${config.feedGuid}</podcast:guid>
     <itunes:category text="Technology" />
     <itunes:category text="Education" />
     <podcast:location>GitHub</podcast:location>
@@ -120,10 +124,10 @@ ${valueRecipients.join('\n')}
       <description>${config.feedTitle} artwork</description>
     </image>
     <podcast:medium>podcast</podcast:medium>
-    <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
+    <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosting" role="host">${config.name}</podcast:person>
     
     <!-- Value Block for Lightning Payments -->
-    <podcast:value type="lightning" method="lnaddress" suggested="1000">
+    <podcast:value type="lightning" method="split" suggested="1000">
 ${valueRecipients.join('\n')}
     </podcast:value>
     

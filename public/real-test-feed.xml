@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
+  <channel>
+    <title>Bitcoin Podcast</title>
+    <description>A real podcast about Bitcoin and Lightning Network</description>
+    <link>https://bitcoinpodcast.com</link>
+    <language>en</language>
+    <podcast:value type="lightning" method="split" suggested="1000">
+      <podcast:valueRecipient name="Host" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="70" />
+      <podcast:valueRecipient name="Producer" type="node" address="03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f" split="20" />
+      <podcast:valueRecipient name="Editor" type="lightning" address="alice@getalby.com" split="10" />
+    </podcast:value>
+    <item>
+      <title>Episode 1: Introduction to Lightning Network</title>
+      <description>In this episode, we explore the basics of the Lightning Network and how it enables instant Bitcoin payments.</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>https://bitcoinpodcast.com/episode1</guid>
+    </item>
+    <item>
+      <title>Episode 2: Value for Value Podcasting</title>
+      <description>Learn how podcasters can monetize their content using Lightning payments and value blocks in RSS feeds.</description>
+      <pubDate>Mon, 08 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>https://bitcoinpodcast.com/episode2</guid>
+    </item>
+  </channel>
+</rss> 
