@@ -2,20 +2,20 @@
 <rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>LNURL Testing Podcast</title>
-    <itunes:author>LNURL Tester</itunes:author>
-    <description>A test podcast for LNURL payment integration. This feed demonstrates value-for-value monetization using Lightning Network payments with LNURL support. Each episode tests different payment methods and wallet integrations.</description>
-    <link>https://github.com/yourusername/lnurl-test-feed</link>
+    <itunes:author>Chad</itunes:author>
+    <description>A test podcast for LNURL payment integration and Lightning Network testing.</description>
+    <link>https://github.com/ChadFarrow/lnurl-test-feed</link>
     <language>en</language>
     <generator>LNURL Test Feed v1.0</generator>
-    <pubDate>Mon, 05 Feb 2024 12:00:00 -0500</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 12:00:00 -0500</lastBuildDate>
-    <podcast:locked owner="your-email@domain.com">no</podcast:locked>
-    <podcast:guid>lnurl-test-feed-2024-02-05</podcast:guid>
+    <pubDate>Wed, 09 Jul 2025 01:04:00 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 01:04:00 GMT</lastBuildDate>
+    <podcast:locked owner="chad.farrow@gmail.com">no</podcast:locked>
+    <podcast:guid>b7e6a1e2-7e2b-5c2e-8e2b-7e2b5c2e8e2b</podcast:guid>
     <itunes:category text="Technology" />
     <itunes:category text="Education" />
     <podcast:location>GitHub</podcast:location>
-    <managingEditor>your-email@domain.com</managingEditor>
-    <webMaster>your-email@domain.com</webMaster>
+    <managingEditor>chad.farrow@gmail.com</managingEditor>
+    <webMaster>chad.farrow@gmail.com</webMaster>
     <image>
       <url>https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/artwork.jpg</url>
       <title>LNURL Testing Podcast</title>
@@ -23,72 +23,38 @@
       <description>LNURL Testing Podcast artwork</description>
     </image>
     <podcast:medium>podcast</podcast:medium>
-    <podcast:person href="https://github.com/yourusername" img="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/host.jpg" group="hosting" role="host">LNURL Tester</podcast:person>
+    <podcast:person href="https://github.com/ChadFarrow/lnurl-test-feed" img="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/host.jpg" group="hosts" role="host">Chad</podcast:person>
     
-    <!-- Value Block for Lightning Payments - CUSTOMIZE THESE ADDRESSES -->
-    <podcast:value type="lightning" method="split" suggested="1000">
-      <podcast:valueRecipient name="Host" type="lightning" address="yourname@getalby.com" split="100" />
-      <!-- Add more recipients as needed:
-      <podcast:valueRecipient name="Producer" type="lightning" address="producer@walletofsatoshi.com" split="20" />
-      <podcast:valueRecipient name="Editor" type="node" address="YOUR_NODE_PUBKEY" split="10" />
-      -->
+    <!-- Value Block for Lightning Payments -->
+    <podcast:value type="lightning" method="lnaddress" suggested="1000">
+      <podcast:valueRecipient name="Wallet 1" type="wallet" address="chadf@getalby.com" split="20" />
+      <podcast:valueRecipient name="Wallet 2" type="wallet" address="chadf@btcpay.podtards.com" split="20" />
+      <podcast:valueRecipient name="Wallet 3" type="wallet" address="eagerheron90@zeusnuts.com" split="20" />
+      <podcast:valueRecipient name="Wallet 4" type="wallet" address="cobaltfly1@primal.net" split="20" />
+      <podcast:valueRecipient name="Node 1" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="20" />
     </podcast:value>
     
-    <!-- Episode 1: LNURL Introduction -->
+    <!-- Episode 1: LNURL Testing Episode -->
     <item>
-      <title>Episode 1: Introduction to LNURL</title>
-      <description>Welcome to the LNURL Testing Podcast! In this episode, we introduce LNURL (Lightning Network URL) and explain how it enables seamless Lightning payments. We'll discuss LNURL-pay, LNURL-withdraw, and how these protocols are revolutionizing Bitcoin payments. This episode serves as a foundation for understanding the Lightning Network's URL-based payment system.</description>
-      <pubDate>Mon, 05 Feb 2024 12:00:00 -0500</pubDate>
+      <title>LNURL Testing Episode</title>
+      <description>A test episode for LNURL payment integration across different Lightning wallets and services. This episode demonstrates value-for-value monetization using Lightning payments with multiple LNURL addresses.</description>
+      <pubDate>Wed, 09 Jul 2025 01:04:00 GMT</pubDate>
       <guid isPermaLink="false">lnurl-test-001-2024-02-05</guid>
-      <podcast:transcript url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/transcripts/episode-001.srt" type="application/srt" />
-      <itunes:image href="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episode-001.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episodes/episode-001.mp3" length="15000000" type="audio/mpeg"/>
+      <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
+      <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/images/episode-001.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/episodes/episode-001.mp3" length="15000000" type="audio/mpeg"/>
       <itunes:duration>00:25:00</itunes:duration>
       <podcast:episode>1</podcast:episode>
-      <podcast:person href="https://github.com/yourusername" img="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/host.jpg" group="hosting" role="host">LNURL Tester</podcast:person>
+      <podcast:person href="https://github.com/ChadFarrow/lnurl-test-feed" img="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/host.jpg" group="hosts" role="host">Chad</podcast:person>
       
       <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="split" suggested="500">
-        <podcast:valueRecipient name="Host" type="lightning" address="yourname@getalby.com" split="100" />
-      </podcast:value>
-    </item>
-    
-    <!-- Episode 2: LNURL-pay Deep Dive -->
-    <item>
-      <title>Episode 2: LNURL-pay Implementation</title>
-      <description>In this technical episode, we dive deep into LNURL-pay implementation. We explore how LNURL-pay works, the callback mechanism, and how to integrate it into applications. We'll also discuss the benefits of LNURL-pay over traditional Lightning invoices and how it simplifies the payment flow for both users and merchants.</description>
-      <pubDate>Mon, 12 Feb 2024 12:00:00 -0500</pubDate>
-      <guid isPermaLink="false">lnurl-test-002-2024-02-12</guid>
-      <podcast:transcript url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/transcripts/episode-002.srt" type="application/srt" />
-      <itunes:image href="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episode-002.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episodes/episode-002.mp3" length="18000000" type="audio/mpeg"/>
-      <itunes:duration>00:30:00</itunes:duration>
-      <podcast:episode>2</podcast:episode>
-      <podcast:person href="https://github.com/yourusername" img="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/host.jpg" group="hosting" role="host">LNURL Tester</podcast:person>
-      
-      <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="split" suggested="750">
-        <podcast:valueRecipient name="Host" type="lightning" address="yourname@getalby.com" split="100" />
-      </podcast:value>
-    </item>
-    
-    <!-- Episode 3: Testing Different Wallets -->
-    <item>
-      <title>Episode 3: Testing LNURL with Different Wallets</title>
-      <description>This episode focuses on testing LNURL compatibility across different Lightning wallets. We'll test popular wallets like Alby, Phoenix, Blixt, and others to see how they handle LNURL payments. We'll discuss the user experience, success rates, and any limitations we encounter during testing.</description>
-      <pubDate>Mon, 19 Feb 2024 12:00:00 -0500</pubDate>
-      <guid isPermaLink="false">lnurl-test-003-2024-02-19</guid>
-      <podcast:transcript url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/transcripts/episode-003.srt" type="application/srt" />
-      <itunes:image href="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episode-003.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/episodes/episode-003.mp3" length="21000000" type="audio/mpeg"/>
-      <itunes:duration>00:35:00</itunes:duration>
-      <podcast:episode>3</podcast:episode>
-      <podcast:person href="https://github.com/yourusername" img="https://raw.githubusercontent.com/yourusername/lnurl-test-feed/main/host.jpg" group="hosting" role="host">LNURL Tester</podcast:person>
-      
-      <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="split" suggested="1000">
-        <podcast:valueRecipient name="Host" type="lightning" address="yourname@getalby.com" split="100" />
+      <podcast:value type="lightning" method="lnaddress" suggested="1000">
+      <podcast:valueRecipient name="Wallet 1" type="wallet" address="chadf@getalby.com" split="20" />
+      <podcast:valueRecipient name="Wallet 2" type="wallet" address="chadf@btcpay.podtards.com" split="20" />
+      <podcast:valueRecipient name="Wallet 3" type="wallet" address="eagerheron90@zeusnuts.com" split="20" />
+      <podcast:valueRecipient name="Wallet 4" type="wallet" address="cobaltfly1@primal.net" split="20" />
+      <podcast:valueRecipient name="Node 1" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="20" />
       </podcast:value>
     </item>
   </channel>
-</rss> 
+</rss>
