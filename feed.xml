@@ -7,8 +7,8 @@
     <link>https://github.com/ChadFarrow/lnurl-test-feed</link>
     <language>en</language>
     <generator>LNURL Test Feed v1.0</generator>
-    <pubDate>Wed, 09 Jul 2025 00:51:27 GMT</pubDate>
-    <lastBuildDate>Wed, 09 Jul 2025 00:51:27 GMT</lastBuildDate>
+    <pubDate>Wed, 09 Jul 2025 00:54:39 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 00:54:39 GMT</lastBuildDate>
     <podcast:locked owner="chad.farrow@gmail.com">no</podcast:locked>
     <podcast:guid>b7e6a1e2-7e2b-5c2e-8e2b-7e2b5c2e8e2b</podcast:guid>
     <itunes:category text="Technology" />
@@ -26,7 +26,7 @@
     <podcast:person href="https://github.com/ChadFarrow/lnurl-test-feed" img="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/host.jpg" group="hosts" role="host">Chad</podcast:person>
     
     <!-- Value Block for Lightning Payments -->
-    <podcast:value type="lightning" method="wallet" suggested="1000">
+    <podcast:value type="lightning" method="lnaddress" suggested="1000">
       <podcast:valueRecipient name="Wallet 1" type="wallet" address="chadf@getalby.com" split="20" />
       <podcast:valueRecipient name="Wallet 2" type="wallet" address="chadf@btcpay.podtards.com" split="20" />
       <podcast:valueRecipient name="Wallet 3" type="wallet" address="eagerheron90@zeusnuts.com" split="20" />
@@ -38,7 +38,7 @@
     <item>
       <title>LNURL Testing Episode</title>
       <description>A test episode for LNURL payment integration across different Lightning wallets and services. This episode demonstrates value-for-value monetization using Lightning payments with multiple LNURL addresses.</description>
-      <pubDate>Wed, 09 Jul 2025 00:51:27 GMT</pubDate>
+      <pubDate>Wed, 09 Jul 2025 00:54:39 GMT</pubDate>
       <guid isPermaLink="false">lnurl-test-001-2024-02-05</guid>
       <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
       <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/images/episode-001.jpg" />
@@ -48,7 +48,7 @@
       <podcast:person href="https://github.com/ChadFarrow/lnurl-test-feed" img="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/host.jpg" group="hosts" role="host">Chad</podcast:person>
       
       <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="wallet" suggested="1000">
+      <podcast:value type="lightning" method="lnaddress" suggested="1000">
       <podcast:valueRecipient name="Wallet 1" type="wallet" address="chadf@getalby.com" split="20" />
       <podcast:valueRecipient name="Wallet 2" type="wallet" address="chadf@btcpay.podtards.com" split="20" />
       <podcast:valueRecipient name="Wallet 3" type="wallet" address="eagerheron90@zeusnuts.com" split="20" />

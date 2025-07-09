@@ -89,7 +89,7 @@ function generateFeed() {
       <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
       
       <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="wallet" suggested="${episode.suggestedAmount}">
+      <podcast:value type="lightning" method="lnaddress" suggested="${episode.suggestedAmount}">
 ${valueRecipients.join('\n')}
       </podcast:value>
     </item>`;
@@ -123,7 +123,7 @@ ${valueRecipients.join('\n')}
     <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
     
     <!-- Value Block for Lightning Payments -->
-    <podcast:value type="lightning" method="wallet" suggested="1000">
+    <podcast:value type="lightning" method="lnaddress" suggested="1000">
 ${valueRecipients.join('\n')}
     </podcast:value>
     
