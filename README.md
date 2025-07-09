@@ -78,6 +78,10 @@ The feed follows the Podcast Index namespace standard for value blocks:
 The development and testing tools for this feed are in a separate repository:
 https://github.com/ChadFarrow/lnurl-playground-dev
 
+## Feed Creation
+
+This feed was created using the [Demu Feed Template](https://github.com/de-mu/demu-feed-template) and follows the standards from [podcasting2.org/podcasters](https://podcasting2.org/podcasters).
+
 ## Contributing
 
 To contribute to this feed:
@@ -89,3 +93,7 @@ To contribute to this feed:
 ## License
 
 This feed is open source and available for testing and development purposes.
+
+## Related Resources
+
+- [Demu Feed Template - https://github.com/de-mu/demu-feed-template](https://github.com/de-mu/demu-feed-template)
