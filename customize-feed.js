@@ -46,6 +46,9 @@ function generateFeed() {
   const githubBaseUrl = `https://raw.githubusercontent.com/${config.username}/${config.repoName}/main`;
   const githubRepoUrl = `https://github.com/${config.username}/${config.repoName}`;
   
+  // Use a static UUIDv5 for podcast:guid (replace with a real UUIDv5 if needed)
+  const podcastGuid = 'b7e6a1e2-7e2b-5c2e-8e2b-7e2b5c2e8e2b';
+  
   // Generate value recipients with even splits
   const valueRecipients = [];
   
@@ -55,10 +58,10 @@ function generateFeed() {
   const totalRecipients = totalLightningAddresses + totalNodePubkeys;
   const evenSplit = Math.floor(100 / totalRecipients);
   
-  // Add Lightning addresses with even splits
+  // Add Lightning addresses with even splits and type="wallet"
   config.lightningAddresses.forEach((address, index) => {
-    const name = `Wallet ${index + 1}`;
-    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="lnaddress" address="${address}" split="${evenSplit}" />`);
+    const name = config.lightningNames && config.lightningNames[index] ? config.lightningNames[index] : `Wallet ${index + 1}`;
+    valueRecipients.push(`      <podcast:valueRecipient name="${name}" type="wallet" address="${address}" split="${evenSplit}" />`);
   });
   
   // Add node pubkeys with even splits
@@ -78,15 +81,15 @@ function generateFeed() {
       <description>${episode.description}</description>
       <pubDate>${episodeDate}</pubDate>
       <guid isPermaLink="false">${episode.guid}</guid>
-      <podcast:transcript url="${githubBaseUrl}/transcripts/episode-${episodeNumber.toString().padStart(3, '0')}.srt" type="application/srt" />
+      <podcast:transcript url="${githubBaseUrl}/transcripts/episode-${episodeNumber.toString().padStart(3, '0')}.srt" type="text/plain" />
       <itunes:image href="${githubBaseUrl}/images/episode-${episodeNumber.toString().padStart(3, '0')}.jpg" />
       <enclosure url="${githubBaseUrl}/episodes/episode-${episodeNumber.toString().padStart(3, '0')}.mp3" length="15000000" type="audio/mpeg"/>
       <itunes:duration>00:25:00</itunes:duration>
       <podcast:episode>${episodeNumber}</podcast:episode>
-      <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosting" role="host">${config.name}</podcast:person>
+      <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
       
       <!-- Episode-specific value block -->
-      <podcast:value type="lightning" method="split" suggested="${episode.suggestedAmount}">
+      <podcast:value type="lightning" method="wallet" suggested="${episode.suggestedAmount}">
 ${valueRecipients.join('\n')}
       </podcast:value>
     </item>`;
@@ -104,7 +107,7 @@ ${valueRecipients.join('\n')}
     <pubDate>${currentDate}</pubDate>
     <lastBuildDate>${currentDate}</lastBuildDate>
     <podcast:locked owner="${config.email}">no</podcast:locked>
-    <podcast:guid>${config.feedGuid}</podcast:guid>
+    <podcast:guid>${podcastGuid}</podcast:guid>
     <itunes:category text="Technology" />
     <itunes:category text="Education" />
     <podcast:location>GitHub</podcast:location>
@@ -117,10 +120,10 @@ ${valueRecipients.join('\n')}
       <description>${config.feedTitle} artwork</description>
     </image>
     <podcast:medium>podcast</podcast:medium>
-    <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosting" role="host">${config.name}</podcast:person>
+    <podcast:person href="${githubRepoUrl}" img="${githubBaseUrl}/host.jpg" group="hosts" role="host">${config.name}</podcast:person>
     
     <!-- Value Block for Lightning Payments -->
-    <podcast:value type="lightning" method="split" suggested="1000">
+    <podcast:value type="lightning" method="wallet" suggested="1000">
 ${valueRecipients.join('\n')}
     </podcast:value>
     
