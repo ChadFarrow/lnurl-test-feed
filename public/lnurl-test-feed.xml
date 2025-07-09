@@ -22,7 +22,7 @@
       <description>LNURL Testing Podcast artwork</description>
     </image>
     <podcast:medium>podcast</podcast:medium>
-    <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="host" role="CEO">ChadF</podcast:person>
+    <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
     
     <!-- Value Block for Lightning Payments -->
     <podcast:value type="lightning" method="lnaddress" suggested="1">
@@ -47,7 +47,7 @@
       <enclosure url="https://github.com/ChadFarrow/lnurl-test-feed/blob/main/LNURL%20Playground_%20Value-for-Value%20Podcasting%20Testbed.mp3" length="5890440" type="audio/mpeg"/>
       <itunes:duration>00:09:28</itunes:duration>
       <podcast:episode>1</podcast:episode>
-      <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="hosts" role="CEO">ChadF</podcast:person>
+      <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
       
       <!-- Episode-specific value block -->
      <podcast:value type="lightning" method="lnaddress" suggested="1">
