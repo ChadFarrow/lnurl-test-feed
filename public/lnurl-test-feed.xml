@@ -39,7 +39,7 @@
     <!-- Episode 1: LNURL Testing Episode -->
     <item>
       <title>LNURL Testing Episode</title>
-      <description>Test episode for LNURL payment integration across different Lightning wallets and services. This episode demonstrates value-for-value monetization using Lightning payments with multiple LNURL addresses.</description>
+      <description>This is an AI summary of the GitHub for this feed so take that with a grain of salt.</description>
       <pubDate>Thu, 10 Jul 2025 00:00:56 GMT</pubDate>
       <guid isPermaLink="false">66043d2a-15fb-49eb-8549-9fef1b3f2bb6</guid>
       <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
