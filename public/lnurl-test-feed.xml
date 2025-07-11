@@ -34,8 +34,9 @@
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
       <podcast:valueRecipient name="The Wolf" type="node" address="03ecb3ee55ba6324d40bea174de096dc9134cb35d990235723b37ae9b5c49f4f53" split="5" />
       <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
+      <podcast:metaBoost>https://v4v-lightning-payment-tester.vercel.app/api/metaboost</podcast:metaBoost>
     </podcast:value>
-    
+  
     <!-- Episode 1: LNURL Testing Episode -->
     <item>
       <title>LNURL Testing Episode</title>
