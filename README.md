@@ -97,3 +97,4 @@ This feed is open source and available for testing and development purposes.
 ## Related Resources
 
 - [Demu Feed Template - https://github.com/de-mu/demu-feed-template](https://github.com/de-mu/demu-feed-template)
+- For more info and example of podcasting 2.0 tags visite https://podcasting2.org/
