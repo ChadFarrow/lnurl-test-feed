@@ -27,9 +27,8 @@
     
     <!-- Value Block for Lightning Payments -->
     <podcast:value type="lightning" method="lnaddress" suggested="1">
-      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="15" />
+      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="30" />
       <podcast:valueRecipient name="Strike" type="lnaddress" address="chadf@strike.me" split="15" />
-      <podcast:valueRecipient name="BTCPay" type="lnaddress" address="chadf@btcpay.podtards.com" split="15" />
       <podcast:valueRecipient name="Zeus Cashu" type="lnaddress" address="eagerheron90@zeusnuts.com" split="15" />
       <podcast:valueRecipient name="Primal" type="lnaddress" address="cobaltfly1@primal.net" split="15" />
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
@@ -53,9 +52,8 @@
       
       <!-- Episode-specific value block -->
      <podcast:value type="lightning" method="lnaddress" suggested="1">
-      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="15" />
+      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="30" />
       <podcast:valueRecipient name="Strike" type="lnaddress" address="chadf@strike.me" split="15" />
-      <podcast:valueRecipient name="BTCPay" type="lnaddress" address="chadf@btcpay.podtards.com" split="15" />
       <podcast:valueRecipient name="Zeus Cashu" type="lnaddress" address="eagerheron90@zeusnuts.com" split="15" />
       <podcast:valueRecipient name="Primal" type="lnaddress" address="cobaltfly1@primal.net" split="15" />
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
