@@ -77,9 +77,11 @@
       <!-- Episode-specific value block -->
      <podcast:value type="lightning" method="lnaddress" suggested="1">
       <podcast:valueRecipient name="Strike ChadF" type="lnaddress" address="chadf@strike.me" split="15" />
-      <podcast:valueRecipient name="Strike Salty" type="lnaddress" address="upbeats@strike.me" split="20" />
-      <podcast:valueRecipient name="ZBD Salty" type="lnaddress" address="SaltyCrayon@zbd.gg" split="20" />
+      <podcast:valueRecipient name="Strike Salty" type="lnaddress" address="upbeats@strike.me" split="10" />
+      <podcast:valueRecipient name="ZBD Salty" type="lnaddress" address="SaltyCrayon@zbd.gg" split="10" />
       <podcast:valueRecipient name="Bitpunk.fm" type="lnaddress" address="sats@pay.bitpunk.fm" split="20" />
+      <podcast:valueRecipient name="Mike Neumann" type="lnaddress" address="mikeneumann33@cash.app" split="10" />
+      <podcast:valueRecipient name="Mike Neumann" type="lnaddress" address="mikeneumann@strike.me" split="10" />  
       <podcast:valueRecipient name="WrathfulT" type="lnaddress" address="icyturtle9@primal.net" split="20" />
       <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
       <podcast:metaBoost>https://v4v-lightning-payment-tester-ec9iywsi9-chadfs-projects.vercel.app/api/metaboost</podcast:metaBoost>
