@@ -43,7 +43,6 @@
       <description>This is an AI summary of the GitHub for this feed so take that with a grain of salt.</description>
       <pubDate>Thu, 10 Jul 2025 00:00:56 GMT</pubDate>
       <guid isPermaLink="false">66043d2a-15fb-49eb-8549-9fef1b3f2bb6</guid>
-      <podcast:transcript url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/transcripts/episode-001.srt" type="text/plain" />
       <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/episode-image.jpg" />
       <enclosure url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/LNURL%20Test%20Feed_%20Lightning%20Network%20Podcasting%20Integration.mp3" length="5690496" type="audio/mpeg"/>
       <itunes:duration>00:08:46</itunes:duration>
@@ -58,6 +57,30 @@
       <podcast:valueRecipient name="Primal" type="lnaddress" address="cobaltfly1@primal.net" split="15" />
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
       <podcast:valueRecipient name="The Wolf" type="node" address="03ecb3ee55ba6324d40bea174de096dc9134cb35d990235723b37ae9b5c49f4f53" split="5" />
+      <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
+      <podcast:metaBoost>https://v4v-lightning-payment-tester-ec9iywsi9-chadfs-projects.vercel.app/api/metaboost</podcast:metaBoost>
+    </podcast:value>
+    </item>
+    
+       <!-- Episode 2: LNURL Test for the V4V Roundtable -->
+    <item>
+      <title>LNURL Test for the V4V Roundtable</title>
+      <description>This is an AI summary of episode 3 of the V4V roundtable.</description>
+      <pubDate>Mon, 11 Aug 2025 11:00:56 GMT</pubDate>
+      <guid isPermaLink="false">87f368ef-c559-4569-ae58-18fc9e84057c</guid>
+      <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%203%20cover%20art.webp" />
+      <enclosure url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/public/Unpacking_Value_for_Value_Music_Tech_Hurdles%2C_Artist_Engagement.mp3" length="12819060" type="audio/mpeg"/>
+      <itunes:duration>00:11:36</itunes:duration>
+      <podcast:episode>2</podcast:episode>
+      <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
+      
+      <!-- Episode-specific value block -->
+     <podcast:value type="lightning" method="lnaddress" suggested="1">
+      <podcast:valueRecipient name="Strike ChadF" type="lnaddress" address="chadf@strike.me" split="15" />
+      <podcast:valueRecipient name="Strike Salty" type="lnaddress" address="upbeats@strike.me" split="20" />
+      <podcast:valueRecipient name="ZBD Salty" type="lnaddress" address="SaltyCrayon@zbd.gg" split="20" />
+      <podcast:valueRecipient name="Bitpunk.fm" type="lnaddress" address="sats@pay.bitpunk.fm" split="20" />
+      <podcast:valueRecipient name="WrathfulT" type="lnaddress" address="icyturtle9@primal.net" split="20" />
       <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
       <podcast:metaBoost>https://v4v-lightning-payment-tester-ec9iywsi9-chadfs-projects.vercel.app/api/metaboost</podcast:metaBoost>
     </podcast:value>
