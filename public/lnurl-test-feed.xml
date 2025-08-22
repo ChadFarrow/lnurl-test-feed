@@ -38,7 +38,7 @@
   
     <!-- Episode 1: LNURL Testing Episode -->
     <item>
-      <title>LNURL Testing Episode</title>
+      <title>LNURL Testing Episode 1</title>
       <description>This is an AI summary of the GitHub for this feed so take that with a grain of salt.</description>
       <pubDate>Thu, 10 Jul 2025 00:00:56 GMT</pubDate>
       <guid isPermaLink="false">66043d2a-15fb-49eb-8549-9fef1b3f2bb6</guid>
@@ -62,7 +62,7 @@
     
        <!-- Episode 2: LNURL Test for the V4V Roundtable -->
     <item>
-      <title>LNURL Test for the V4V Roundtable</title>
+      <title>LNURL Test Episode 2 for the V4V Roundtable</title>
       <description>This is an AI summary of episode 3 of the V4V roundtable.</description>
       <pubDate>Mon, 11 Aug 2025 11:00:56 GMT</pubDate>
       <guid isPermaLink="false">87f368ef-c559-4569-ae58-18fc9e84057c</guid>
@@ -87,7 +87,7 @@
 
       <!-- Episode 3: LNURL Test for dual-valueRecipients -->
     <item>
-      <title>LNURL Test for dual-valueRecipients</title>
+      <title>LNURL Test Episode 3 for dual-valueRecipients</title>
       <description>This is a test episode to add dual-valueRecipients to my NWC demo app</description>
       <pubDate>Fri, 22 Aug 2025 11:00:56 GMT</pubDate>
       <guid isPermaLink="false">a78d476a-f331-4840-912f-5b9f73d696b5</guid>
