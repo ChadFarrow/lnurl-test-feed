@@ -121,7 +121,7 @@
       <itunes:subtitle>LNURL Test Episode 4 for Cashu test</itunes:subtitle>
       <itunes:summary><![CDATA[<p>AI summary of the HGH chat because I needed something.</p>]]></itunes:summary>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
-        <podcast:valueRecipient name="Cashu" type="lnaddress" address="seatedglide692@minibits.cash" split="1"/>
+        <podcast:valueRecipient name="Cashu" type="lnaddress" address="seatedglide692@minibits.cash" split="100"/>
       </podcast:value>
       <pubDate>Mon, 22 Sep 2025 23:47:12 +0000</pubDate>
       <itunes:author>ChadF</itunes:author>
