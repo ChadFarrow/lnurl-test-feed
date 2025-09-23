@@ -112,8 +112,7 @@
 
     <item>
       <title>LNURL Test Episode 4 for Cashu test</title>
-      <author>ChadF</author>
-      <description><![CDATA[<p>AI summary of the HGH chat because I needed something.</p>]]></description>
+      <description>AI summary of the HGH chat because I needed something.</description>
       <duration/>
       <enclosure length="14082372" type="audio/mpeg" url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%204%20cashu%20test.mp3"/>
       <guid isPermaLink="false">34b511c2-1c0d-4344-bb1f-364f2c30a12c</guid>
@@ -124,9 +123,9 @@
         <podcast:valueRecipient name="Cashu" type="lnaddress" address="seatedglide692@minibits.cash" split="100"/>
       </podcast:value>
       <itunes:duration>00:12:20</itunes:duration>
+      <podcast:episode>4</podcast:episode>
       <pubDate>Tue, 23 Sep 2025 00:21:51 +0000</pubDate>
-      <itunes:author>ChadF</itunes:author>
-      <itunes:duration>0</itunes:duration>
+      <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
     </item>
   </channel>
 </rss>
