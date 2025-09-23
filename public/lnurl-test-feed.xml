@@ -115,7 +115,7 @@
       <author>ChadF</author>
       <description><![CDATA[<p>AI summary of the HGH chat because I needed something.</p>]]></description>
       <duration/>
-      <enclosure length="22" type="video/mp4" url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/Episode%204%20audio.mp4"/>
+      <enclosure length="14082372" type="audio/mpeg" url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%204%20cashu%20test.mp3"/>
       <guid isPermaLink="false">34b511c2-1c0d-4344-bb1f-364f2c30a12c</guid>
       <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%204%20cashu.png"/>
       <itunes:subtitle>LNURL Test Episode 4 for Cashu test</itunes:subtitle>
@@ -123,7 +123,8 @@
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Cashu" type="lnaddress" address="seatedglide692@minibits.cash" split="100"/>
       </podcast:value>
-      <pubDate>Mon, 22 Sep 2025 23:47:12 +0000</pubDate>
+      <itunes:duration>00:12:20</itunes:duration>
+      <pubDate>Tue, 23 Sep 2025 00:21:51 +0000</pubDate>
       <itunes:author>ChadF</itunes:author>
       <itunes:duration>0</itunes:duration>
     </item>
