@@ -109,5 +109,23 @@
       <podcast:valueRecipient name="WrathfulT" type="lnaddress" address="icyturtle9@primal.net" split="25" />
      </podcast:value>
     </item>
+
+    <item>
+      <title>LNURL Test Episode 4 for Cashu test</title>
+      <author>ChadF</author>
+      <description><![CDATA[<p>AI summary of the HGH chat because I needed something.</p>]]></description>
+      <duration/>
+      <enclosure length="22" type="video/mp4" url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/Episode%204%20audio.mp4"/>
+      <guid isPermaLink="false">34b511c2-1c0d-4344-bb1f-364f2c30a12c</guid>
+      <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%204%20cashu.png"/>
+      <itunes:subtitle>LNURL Test Episode 4 for Cashu test</itunes:subtitle>
+      <itunes:summary><![CDATA[<p>AI summary of the HGH chat because I needed something.</p>]]></itunes:summary>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Cashu" type="lnaddress" address="seatedglide692@minibits.cash" split="1"/>
+      </podcast:value>
+      <pubDate>Mon, 22 Sep 2025 23:47:12 +0000</pubDate>
+      <itunes:author>ChadF</itunes:author>
+      <itunes:duration>0</itunes:duration>
+    </item>
   </channel>
 </rss>
