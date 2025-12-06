@@ -27,10 +27,11 @@
     
     <!-- Value Block for Lightning Payments -->
     <podcast:value type="lightning" method="lnaddress" suggested="1">
-      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="15" />
+      <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="5" />
       <podcast:valueRecipient name="Strike" type="lnaddress" address="chadf@strike.me" split="15" />
       <podcast:valueRecipient name="Zeus Cashu" type="lnaddress" address="eagerheron90@zeusnuts.com" split="15" />
       <podcast:valueRecipient name="Primal" type="lnaddress" address="cobaltfly1@primal.net" split="15" />
+      <podcast:valueRecipient name="Fountain" type="lnaddress" address="chadf@fountain.fm" split="10" />      
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
       <podcast:valueRecipient name="My Other Node" type="node" address="03740ea02585ed87b83b2f76317a4562b616bd7b8ec3f925be6596932b2003fc9e" split="15" />
       <podcast:valueRecipient name="The Wolf" type="node" address="03ecb3ee55ba6324d40bea174de096dc9134cb35d990235723b37ae9b5c49f4f53" split="5" />
