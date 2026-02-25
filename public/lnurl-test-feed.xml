@@ -54,7 +54,7 @@
      <podcast:value type="lightning" method="lnaddress" suggested="1">
       <podcast:valueRecipient name="Alby" type="lnaddress" address="chadf@getalby.com" split="20" />
       <podcast:valueRecipient name="Strike" type="lnaddress" address="chadf@strike.me" split="15" />
-      <podcast:valueRecipient name="Oscar" type="lnaddress" address="merryoscar@fountain.fm" split="15" />
+      <podcast:valueRecipient name="Zeus Cashu" type="lnaddress" address="eagerheron90@zeusnuts.com" split="15" />
       <podcast:valueRecipient name="Primal" type="lnaddress" address="cobaltfly1@primal.net" split="15" />
       <podcast:valueRecipient name="Fountain" type="lnaddress" address="chadf@fountain.fm" split="10" />      
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
