@@ -87,5 +87,23 @@
       <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
      </podcast:value>
     </item>      
+
+ <!-- Episode 3: BoostBox and Helipad Test -->
+    <item>
+      <title>BoostBox and Helipad test</title>
+      <description>Test feed for BoostBox and Helipad functionality.</description>
+      <pubDate>Wed, 25 Feb 2026 11:00:56 GMT</pubDate>
+      <guid isPermaLink="false">c4dac22d-173f-4442-9b3b-5d89b20b26e6</guid>
+      <itunes:image href="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/episode%203%20cover%20art.png" />
+      <enclosure url="https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/public/coma-media-sky-wind-140223.mp3" length="4518974" type="audio/mpeg"/>
+      <itunes:duration>00:2:21</itunes:duration>
+      <podcast:episode>3</podcast:episode>
+      <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
+      
+      <!-- Episode-specific value block -->
+     <podcast:value type="lightning" method="lnaddress" suggested="1">
+      <podcast:valueRecipient name="ChadF Test Node" type="lnaddress" address="lushnessprecious644398@getalby.com" split="100" />  
+     </podcast:value>
+    </item>      
   </channel>
 </rss>
