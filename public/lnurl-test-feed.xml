@@ -102,7 +102,7 @@
       
       <!-- Episode-specific value block -->
      <podcast:value type="lightning" method="lnaddress" suggested="1">
-      <podcast:valueRecipient name="ChadF Test Node" type="lnaddress" address="chadf@getalby.com" split="100" />  
+      <podcast:valueRecipient name="ChadF" type="lnaddress" address="chadf@getalby.com" split="100" />  
      </podcast:value>
     </item>      
   </channel>
