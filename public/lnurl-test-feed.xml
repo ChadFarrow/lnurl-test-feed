@@ -99,6 +99,16 @@
       <itunes:duration>00:2:21</itunes:duration>
       <podcast:episode>3</podcast:episode>
       <podcast:person href="https://github.com/ChadFarrow" img="https://imgur.com/OrnzJGW.jpg" group="Creative Direction" role="Technical Director">ChadF</podcast:person>
+      <podcast:socialInteract
+       protocol="nostr"
+       uri="nostr:nevent1qqswule05m8jh90e237m3dhju893q0qmmk5v4wrs62nevxuy9mallkczyrmey2s2mvl6fhd9am92vtm00mnpt8ml2hsgqdngd35wpquzcdrcsqcyqqqqqqgpzemhxue69uhkx6rpv3nzumn0wd68yvfwvdhk6naud4n"
+       accountId="npub177fz5zkm87jdmf0we2nz7mm7uc2e7l64uzqrv6rvdrsg8qkrg7yqx0aaq7"
+       priority="1" />
+      <podcast:socialInteract
+       protocol="nostr"
+       uri="https://njump.me/nevent1qqswule05m8jh90e237m3dhju893q0qmmk5v4wrs62nevxuy9mallkczyrmey2s2mvl6fhd9am92vtm00mnpt8ml2hsgqdngd35wpquzcdrcsqcyqqqqqqgpzemhxue69uhkx6rpv3nzumn0wd68yvfwvdhk6naud4n"
+       accountId="npub177fz5zkm87jdmf0we2nz7mm7uc2e7l64uzqrv6rvdrsg8qkrg7yqx0aaq7"
+       priority="2" />
       
       <!-- Episode-specific value block -->
      <podcast:value type="lightning" method="lnaddress" suggested="1">
