@@ -20,8 +20,9 @@
         <itunes:image href="https://podtards.com/121e299b13082e77e827058beb71dc0c9a2d3700fc96d212627d7dbe6895223f.jpg" />
         <itunes:explicit>false</itunes:explicit>
         <podcast:value type="lightning" method="keysend">
-            <podcast:valueRecipient name="ChadF" address="chadf@getalby.com" split="50" type="lnaddress" />
-            <podcast:valueRecipient name="ChadF node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="50" type="node" />
+           <podcast:valueRecipient name="ChadF" address="chadf@getalby.com" split="34" type="lnaddress"/>
+           <podcast:valueRecipient name="ChadF node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="33" type="node"/>
+           <podcast:valueRecipient name="Sunami" address="sunami@coinos.io" split="33" type="lnaddress"/>
         </podcast:value>
         <podcast:funding url="https://www.paypal.com/donate/?business=NYCRNVFP4X3DY&amp;no_recurring=0&amp;currency_code=USD">Send me some Value back on PayPal</podcast:funding>
         <item>
