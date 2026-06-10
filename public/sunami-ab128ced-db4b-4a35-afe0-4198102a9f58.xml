@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Sunami Test Feed</title>
+        <itunes:author>ChadF</itunes:author>
+        <description>testing out the sunami RSS editor. </description>
+        <link>chadf.podtards.com</link>
+        <language>en</language>
+        <generator>Sunami</generator>
+        <pubDate>Wed, 10 Jun 2026 23:08:06 GMT</pubDate>
+        <lastBuildDate>Wed, 10 Jun 2026 23:08:06 GMT</lastBuildDate>
+        <podcast:guid>ab128ced-db4b-4a35-afe0-4198102a9f58</podcast:guid>
+        <podcast:medium>music</podcast:medium>
+        <itunes:category text="Music" />
+        <image>
+            <url>https://podtards.com/121e299b13082e77e827058beb71dc0c9a2d3700fc96d212627d7dbe6895223f.jpg</url>
+            <title>Sunami Test Feed</title>
+            <link>chadf.podtards.com</link>
+        </image>
+        <itunes:image href="https://podtards.com/121e299b13082e77e827058beb71dc0c9a2d3700fc96d212627d7dbe6895223f.jpg" />
+        <itunes:explicit>false</itunes:explicit>
+        <podcast:value type="lightning" method="keysend">
+            <podcast:valueRecipient name="ChadF" address="chadf@getalby.com" split="50" type="lnaddress" />
+            <podcast:valueRecipient name="ChadF node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="50" type="node" />
+        </podcast:value>
+        <podcast:funding url="https://www.paypal.com/donate/?business=NYCRNVFP4X3DY&amp;no_recurring=0&amp;currency_code=USD">Send me some Value back on PayPal</podcast:funding>
+        <item>
+            <title>just jammin</title>
+            <description>demo track thanks to TJ Doerfel</description>
+            <pubDate>Wed, 10 Jun 2026 22:52:11 GMT</pubDate>
+            <guid isPermaLink="false">5a2a2faf-f1eb-4d86-88f0-fbf695d4f8b7</guid>
+            <itunes:image href="https://podtards.com/223360457dc97f09a0adb924f4be251ecf116b0e770dd73e19b896cabd28aa30" />
+            <enclosure url="https://podtards.com/ac4a5b41d74382c34574bd5ff947b3c851e8729d4c0f884134e5355a53209b94" length="0" type="audio/mpeg" />
+            <itunes:duration>00:02:50</itunes:duration>
+            <podcast:season>1</podcast:season>
+            <podcast:episode>1</podcast:episode>
+            <itunes:explicit>false</itunes:explicit>
+            <podcast:value type="lightning" method="keysend">
+                <podcast:valueRecipient name="ChadF" address="chadf@getalby.com" split="50" type="lnaddress" />
+                <podcast:valueRecipient name="ChadF node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="50" type="node" />
+            </podcast:value>
+        </item>
+    </channel>
+</rss>
