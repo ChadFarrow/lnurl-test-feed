@@ -1,0 +1,65 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" version="2.0">
+  <channel>
+    <title><![CDATA[Chad and Reed's Podcast]]></title>
+    <description>Podcast Description</description>
+    <language>en</language>
+    <itunes:image href="https://podtards.com/6278c739f01e05b0e0f3cdb1ec8e2920b1ac1e0fe484fc341820eac3ee690e47"/>
+    <link>chadf.podtards.com</link>
+    <generator>Sovereign Feeds</generator>
+    <image>
+      <url>https://podtards.com/6278c739f01e05b0e0f3cdb1ec8e2920b1ac1e0fe484fc341820eac3ee690e47</url>
+      <link>chadf.podtards.com</link>
+      <title><![CDATA[Chad and Reed's Podcast]]></title>
+      <description>Podcast Description</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:category text="Technology"/>
+    <itunes:category text=""/>
+    <podcast:medium>podcast</podcast:medium>
+    <podcast:person href="chadf.podtards.com" img="https://podtards.com/c7f9229b53f160261076f41ed29c781c1e152f34dfba5aa80edd2948ded62bbf" group="cast" role="host">ChadF</podcast:person>
+    <podcast:person href="localbitcoiners.com" img="https://podtards.com/5a162b75a3c2e50fd3081d6184c2fdf88cc9891010555c5aa3f9dc48c6c643fe" group="cast" role="host">Reed</podcast:person>
+    <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+      <podcast:valueRecipient name="ChadF" type="lnaddress" address="chadf@getalby.com" split="35"/>
+      <podcast:valueRecipient name="Reed" type="lnaddress" address="reed@getalby.com" split="50"/>
+      <podcast:valueRecipient name="SirSpencer" type="lnaddress" address="spencer@pay.bowlafterbowl.com" split="5"/>
+      <podcast:valueRecipient name="ericpp" type="lnaddress" address="ericpp@getalby.com" split="5"/>
+      <podcast:valueRecipient name="SirLibre" type="lnaddress" address="kolomona@fountain.fm" split="5"/>
+    </podcast:value>
+    <podcast:complete>no</podcast:complete>
+    <podcast:block>no</podcast:block>
+    <podcast:podroll>
+      <podcast:remoteItem feedGuid="2d418249-453a-5714-8abc-5b657570b641" feedUrl="https://feed.bowlafterbowl.com/feed.xml"/>
+      <podcast:remoteItem feedGuid="41aace28-8679-5ef1-9958-75cf76c2b5f0" feedUrl="https://www.doerfelverse.com/feeds/intothedoerfelverse.xml"/>
+      <podcast:remoteItem feedGuid="c2821db2-43cc-5593-b621-3c5b29a13a7b" feedUrl="https://ourbigdumbmouth.libsyn.com/rss"/>
+    </podcast:podroll>
+    <itunes:owner>
+      <itunes:email>chad.farrow@gmail.com</itunes:email>
+      <itunes:name>ChadF</itunes:name>
+    </itunes:owner>
+    <podcast:funding url="https://www.paypal.com/donate/?business=NYCRNVFP4X3DY&amp;no_recurring=0&amp;currency_code=USD">Help us keep the servers online</podcast:funding>
+    <itunes:author>ChadF</itunes:author>
+    <managingEditor>ChadF</managingEditor>
+    <pubDate>Tue, 21 Jul 2026 21:50:04 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 21:50:04 +0000</lastBuildDate>
+    <category>Technology</category>
+    <category/>
+    <podcast:guid>6ec986d8-5b37-5237-b801-30b1efb5846c</podcast:guid>
+    <item>
+      <title>New Episode</title>
+      <description>Episode description</description>
+      <enclosure url="https://podtards.com/326388b4d211a57f8520088fe3f188312f2af83a21d43fb8694b15df09739d58" length="1915560" type="audio/mpeg"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="ChadF" type="lnaddress" address="chadf@getalby.com" split="35"/>
+        <podcast:valueRecipient name="Reed" type="lnaddress" address="reed@getalby.com" split="50"/>
+        <podcast:valueRecipient name="SirSpencer" type="lnaddress" address="spencer@pay.bowlafterbowl.com" split="5"/>
+        <podcast:valueRecipient name="ericpp" type="lnaddress" address="ericpp@getalby.com" split="5"/>
+        <podcast:valueRecipient name="SirLibre" type="lnaddress" address="kolomona@fountain.fm" split="5"/>
+      </podcast:value>
+      <guid isPermaLink="true">67a569b4-2946-484b-90b4-6abdaaa37f7f</guid>
+      <itunes:duration>120</itunes:duration>
+      <pubDate>Tue, 21 Jul 2026 21:13:51 +0000</pubDate>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+  </channel>
+</rss>
