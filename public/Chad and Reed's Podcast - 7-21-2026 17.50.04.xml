@@ -1,15 +1,15 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" version="2.0">
   <channel>
-    <title><![CDATA[Chad and Reed's Podcast]]></title>
+    <title>Chad and Reeds Podcast</title>
     <description>Podcast Description</description>
     <language>en</language>
-    <itunes:image href="https://podtards.com/6278c739f01e05b0e0f3cdb1ec8e2920b1ac1e0fe484fc341820eac3ee690e47"/>
-    <link>chadf.podtards.com</link>
+    <itunes:image href="https://podtards.com/c5130ec3e4efa530b1a0374c60f2929c088fdce439093b49892e73b3deb0e142"/>
+    <link>candr.space</link>
     <generator>Sovereign Feeds</generator>
     <image>
-      <url>https://podtards.com/6278c739f01e05b0e0f3cdb1ec8e2920b1ac1e0fe484fc341820eac3ee690e47</url>
-      <link>chadf.podtards.com</link>
-      <title><![CDATA[Chad and Reed's Podcast]]></title>
+      <url>https://podtards.com/c5130ec3e4efa530b1a0374c60f2929c088fdce439093b49892e73b3deb0e142</url>
+      <link>candr.space</link>
+      <title>Chad and Reeds Podcast</title>
       <description>Podcast Description</description>
       <width>144</width>
       <height>144</height>
@@ -40,13 +40,13 @@
     <podcast:funding url="https://www.paypal.com/donate/?business=NYCRNVFP4X3DY&amp;no_recurring=0&amp;currency_code=USD">Help us keep the servers online</podcast:funding>
     <itunes:author>ChadF</itunes:author>
     <managingEditor>ChadF</managingEditor>
-    <pubDate>Tue, 21 Jul 2026 21:50:04 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Jul 2026 21:50:04 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Jul 2026 13:34:22 +0000</pubDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:34:22 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>6ec986d8-5b37-5237-b801-30b1efb5846c</podcast:guid>
     <item>
-      <title>New Episode</title>
+      <title>Chad and Reed start a podcast</title>
       <description>Episode description</description>
       <enclosure url="https://podtards.com/326388b4d211a57f8520088fe3f188312f2af83a21d43fb8694b15df09739d58" length="1915560" type="audio/mpeg"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -60,6 +60,8 @@
       <itunes:duration>120</itunes:duration>
       <pubDate>Tue, 21 Jul 2026 21:13:51 +0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
+      <itunes:image href="https://podtards.com/c5130ec3e4efa530b1a0374c60f2929c088fdce439093b49892e73b3deb0e142"/>
+      <itunes:subtitle>Chad and Reed start a podcast</itunes:subtitle>
     </item>
   </channel>
 </rss>
