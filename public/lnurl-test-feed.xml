@@ -34,9 +34,9 @@
       <podcast:valueRecipient name="Blitz" type="lnaddress" address="Lissietahr5@blitzwalletapp.com" split="10" />
       <podcast:valueRecipient name="Fountain" type="lnaddress" address="chadf@fountain.fm" split="10" />      
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
-      <podcast:valueRecipient name="My Other Node" type="node" address="0221e6d9888d8278dcc34de619e979dbac29381fdf774b434288bcf62f3ddd4903" split="15" />
+      <podcast:valueRecipient name="My Other Node" type="node" address="02b32faddac6789150d61d656b7e24335131eacfde91949748acca43738aeeebc4" split="15" />
       <podcast:valueRecipient name="The Wolf" type="node" address="03ecb3ee55ba6324d40bea174de096dc9134cb35d990235723b37ae9b5c49f4f53" split="5" />
-      <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
+      <podcast:valueRecipient name="Podcast Index" type="lnaddress" address="podcastindex@getalby.com" split="5" />
     </podcast:value>
   
     <!-- Episode 1: LNURL Testing Episode -->
@@ -60,7 +60,7 @@
       <podcast:valueRecipient name="Fountain" type="lnaddress" address="chadf@fountain.fm" split="10" />      
       <podcast:valueRecipient name="My Node" type="node" address="032870511bfa0309bab3ca1832ead69eed848a4abddbc4d50e55bb2157f9525e51" split="15" />
       <podcast:valueRecipient name="The Wolf" type="node" address="03ecb3ee55ba6324d40bea174de096dc9134cb35d990235723b37ae9b5c49f4f53" split="5" />
-      <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
+      <podcast:valueRecipient name="Podcast Index" type="lnaddress" address="podcastindex@getalby.com" split="5" />
     </podcast:value>
     </item>
     
@@ -85,7 +85,7 @@
       <podcast:valueRecipient name="Mike Neumann CashApp" type="lnaddress" address="mikeneumann33@cash.app" split="10" />
       <podcast:valueRecipient name="Mike Neumann Strike" type="lnaddress" address="mikeneumann@strike.me" split="10" />  
       <podcast:valueRecipient name="WrathfulT Primal" type="lnaddress" address="icyturtle9@primal.net" split="20" />
-      <podcast:valueRecipient name="Podcast Index" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" />
+      <podcast:valueRecipient name="Podcast Index" type="lnaddress" address="podcastindex@getalby.com" split="5" />
      </podcast:value>
     </item>      
 
