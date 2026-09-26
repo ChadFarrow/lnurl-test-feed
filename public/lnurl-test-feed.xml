@@ -17,7 +17,7 @@
     <webMaster>chad.farrow@gmail.com</webMaster>
     <podcast:funding url="https://getalby.com/p/chadf">Support the project</podcast:funding>
     <image>
-      <url>https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/main/artwork.jpg</url>
+      <url>https://raw.githubusercontent.com/ChadFarrow/lnurl-test-feed/refs/heads/main/public/sunami-cover.jpg</url>
       <title>LNURL Testing Podcast</title>
       <link>https://github.com/ChadFarrow/lnurl-test-feed</link>
       <description>LNURL Testing Podcast artwork</description>
